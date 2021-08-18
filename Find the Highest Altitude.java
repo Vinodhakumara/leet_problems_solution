@@ -5,7 +5,7 @@ Input: gain = [-5,1,5,0,-7]
 Output: 1
 Explanation: The altitudes are [0,-5,-4,1,1,-6]. The highest is 1.
 */
-# Approach 1
+// Approach 1
 class Solution {
     public int largestAltitude(int[] gain) {
             int temp=0,len= gain.length;
@@ -21,7 +21,7 @@ class Solution {
             return temp;
     }
 }
-# Approach 2
+// Approach 2
 class Solution {
     public int largestAltitude(int[] gain) {
             int temp=0 ,len= gain.length, large=0;
