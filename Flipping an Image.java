@@ -1,4 +1,4 @@
-"""
+/*
 Link: https://leetcode.com/problems/flipping-an-image/
 
             OUTPUT
@@ -6,7 +6,7 @@ Input: image = [[1,1,0],[1,0,1],[0,0,0]]
 Output: [[1,0,0],[0,1,0],[1,1,1]]
 Explanation: First reverse each row: [[0,1,1],[1,0,1],[0,0,0]].
 Then, invert the image: [[1,0,0],[0,1,0],[1,1,1]]
-"""
+*/
 class Solution {
     public int[][] flipAndInvertImage(int[][] col) {
         int len=col.length;
